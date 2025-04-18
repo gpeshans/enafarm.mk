@@ -25,7 +25,12 @@ export default async function Page() {
             </p>
             <p className="mb-4 flex">
                 <FontAwesomeIcon icon={faInstagram} height={24} />
-                <a className="pl-4" href="https://www.instagram.com/enafarmapteka/">
+                <a
+                    className="pl-4"
+                    href="https://www.instagram.com/enafarmapteka/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
                     @enafarmapteka
                 </a>
             </p>
@@ -34,6 +39,8 @@ export default async function Page() {
                 <a
                     className="pl-4"
                     href="https://www.facebook.com/people/%D0%90%D0%BF%D1%82%D0%B5%D0%BA%D0%B0-%D0%95%D0%BD%D0%B0-%D0%A4%D0%B0%D1%80%D0%BC/100057394512520/"
+                    target="_blank"
+                    rel="noopener noreferrer"
                 >
                     Аптека Ена-Фарм
                 </a>
