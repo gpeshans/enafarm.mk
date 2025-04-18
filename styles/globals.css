@@ -3,12 +3,13 @@
 @import 'tailwindcss';
 
 @theme {
-    --background-image-noise: linear-gradient(
+    /* --background-image-noise: linear-gradient(
             to bottom,
             color-mix(in oklab, var(--color-neutral-950) 0%, transparent),
             color-mix(in oklab, var(--color-neutral-950) 100%, transparent)
         ),
-        url('/images/noise.png');
+        url('/images/noise.png'); */
+    --color-white: #000000;
     --color-primary: #2bdcd2;
     --color-primary-content: #171717;
     --color-secondary: #016968;
