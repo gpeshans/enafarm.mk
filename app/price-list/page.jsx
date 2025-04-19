@@ -1,7 +1,5 @@
-import { Markdown } from 'components/markdown';
-
 export const metadata = {
-    title: 'Контакт'
+    title: 'Ценовник'
 };
 
 const subtitle = `Комерцијален ценовник - Аптека Ена-Фарм, ${new Date().toLocaleDateString('mk-MK', {
