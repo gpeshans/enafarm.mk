@@ -2,7 +2,10 @@ export const metadata = {
     title: 'Ценовник'
 };
 
-const subtitle = `Комерцијален ценовник - Аптека Ена-Фарм, ${new Date().toLocaleDateString('mk-MK', {
+const currentDate = new Date();
+currentDate.setHours(9);
+
+const subtitle = `Комерцијален ценовник - Аптека Ена-Фарм, ${currentDate.toLocaleTimeString('mk-MK', {
     year: 'numeric',
     month: 'long',
     day: 'numeric'
@@ -15,7 +18,7 @@ export default async function Page() {
             <p className="mb-4">{subtitle}</p>
             <div className="flex justify-center">
                 <embed
-                    src="assets/commercial-price-list-19042025.pdf"
+                    src="assets/commercial-price-list-22042025.pdf"
                     type="application/pdf"
                     width="100%"
                     height="700px"
