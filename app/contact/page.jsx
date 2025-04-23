@@ -1,7 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faInstagram, faFacebookF } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
-import { faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faSquareInstagram, faFacebookF } from '@fortawesome/free-brands-svg-icons';
+import { faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 export const metadata = {
     title: 'Контакт'
@@ -24,7 +23,7 @@ export default async function Page() {
                 </a>
             </p>
             <p className="mb-4 flex">
-                <FontAwesomeIcon icon={faInstagram} height={24} />
+                <FontAwesomeIcon icon={faSquareInstagram} height={24} />
                 <a
                     className="pl-4"
                     href="https://www.instagram.com/enafarmapteka/"
